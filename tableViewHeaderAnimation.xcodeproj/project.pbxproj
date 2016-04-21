@@ -15,6 +15,8 @@
 		5285AF8E1CC7662C00A5D358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5285AF8C1CC7662C00A5D358 /* LaunchScreen.storyboard */; };
 		5285AF991CC7662C00A5D358 /* tableViewHeaderAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5285AF981CC7662C00A5D358 /* tableViewHeaderAnimationTests.m */; };
 		5285AFA41CC7662C00A5D358 /* tableViewHeaderAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5285AFA31CC7662C00A5D358 /* tableViewHeaderAnimationUITests.m */; };
+		5285AFB91CC7750500A5D358 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5285AFB71CC7750500A5D358 /* back.png */; };
+		5285AFBC1CC7754800A5D358 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5285AFBB1CC7754800A5D358 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5285AF9F1CC7662C00A5D358 /* tableViewHeaderAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewHeaderAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5285AFA31CC7662C00A5D358 /* tableViewHeaderAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewHeaderAnimationUITests.m; sourceTree = "<group>"; };
 		5285AFA51CC7662C00A5D358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5285AFB71CC7750500A5D358 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		5285AFBB1CC7754800A5D358 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		5285AF7D1CC7662C00A5D358 /* tableViewHeaderAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				5285AFBB1CC7754800A5D358 /* icon.png */,
+				5285AFB71CC7750500A5D358 /* back.png */,
 				5285AF811CC7662C00A5D358 /* AppDelegate.h */,
 				5285AF821CC7662C00A5D358 /* AppDelegate.m */,
 				5285AF841CC7662C00A5D358 /* ViewController.h */,
@@ -243,7 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5285AFB91CC7750500A5D358 /* back.png in Resources */,
 				5285AF8E1CC7662C00A5D358 /* LaunchScreen.storyboard in Resources */,
+				5285AFBC1CC7754800A5D358 /* icon.png in Resources */,
 				5285AF8B1CC7662C00A5D358 /* Assets.xcassets in Resources */,
 				5285AF891CC7662C00A5D358 /* Main.storyboard in Resources */,
 			);
@@ -498,6 +506,7 @@
 				5285AFAA1CC7662C00A5D358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5285AFAB1CC7662C00A5D358 /* Build configuration list for PBXNativeTarget "tableViewHeaderAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +515,7 @@
 				5285AFAD1CC7662C00A5D358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5285AFAE1CC7662C00A5D358 /* Build configuration list for PBXNativeTarget "tableViewHeaderAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +524,7 @@
 				5285AFB01CC7662C00A5D358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
